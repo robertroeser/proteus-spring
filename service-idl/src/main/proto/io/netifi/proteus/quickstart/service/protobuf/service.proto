@@ -10,6 +10,7 @@ service HelloService {
 
     // Returns a Hello World Message
     rpc SayHello (HelloRequest) returns (HelloResponse) {}
+
 }
 
 message HelloRequest {
